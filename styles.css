@@ -95,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: sticky; */
+    position: sticky;
     top: 64px;
     height: fit-content;
 }
