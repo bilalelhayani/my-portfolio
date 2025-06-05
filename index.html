@@ -5,66 +5,92 @@
     <title>Bilal EL HAYANI</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="images/profile.jpg">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 <body>
-    <!-- Place this inside <body>, above your .container -->
-<header class="navbar">
+    <!-- START OF NAVBAR -->
+
+    <header class="navbar">
   <div class="navbar-content">
-    <!-- <div class="navbar-brand">
+    <!-- Uncomment and update logo/name if needed
+    <div class="navbar-brand">
       <img src="images/stanford_logo.png" alt="Logo" class="navbar-logo">
       <span class="navbar-title">YOUR NAME</span>
-    </div> -->
+    </div>
+    -->
     <nav class="navbar-links">
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
-      <!-- Add more links as needed -->
     </nav>
   </div>
 </header>
+<!-- END OF NAVBAR -->
+  <div class="wrapper">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <header>
+        <div class="about">
+<div class="cover-author-image">
+  <img src="images/profile.jpg" alt="YOUR NAME">
+</div>
 
-    <div class="container">
-                <aside class="sidebar">
-                    <img src="images/profile.jpg" alt="profile" class="profile">
-                    <h2>Bilal EL HAYANI</h2>
-                    <!-- <span class="subtitle">Portfolio</span> -->
-                    <p>Data Scientist | Machine Learning | NLP</p>
-                    <div class="tags">
-                        <span>AI</span>
-                        <span>ML</span>
-                        <span>NLP</span>
-                        <!-- Add more tags as needed -->
-                    </div>
-        <div class="contact">
-            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/yourprofile" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-            <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+          <div class="author-name">Bilal EL HAYANI</div>
+          <p>Data Scientist | Machine Learning | NLP</p>
         </div>
-
-        </aside>
-        <main class="content">
-            <h1>ML Production System For Detecting Covid-19 From Coughs</h1>
-            <p class="date">2021, Mar 21</p>
-            <section class="links">
-                <h3>Application Link</h3>
-                <img src="images/qr_code_example.png" alt="QR Code" class="qr-code">
-                <a href="#">Project Demo - Hosted on GCP Cloud Run</a>
-                <h3>GitHub Link</h3>
-                <a href="#">Project GitHub Repository</a>
-            </section>
-            <section class="team">
-                <h3>The Team</h3>
-                <ul>
-                    <li><a href="#">Lukas Haas</a></li>
-                    <li><a href="#">Dilara Soylu</a></li>
-                    <li><a href="#">John Spencer</a></li>
-                </ul>
-            </section>
-        </main>
+      </header>
+      <!-- TAGS -->
+      <ul class="tags">
+        <li><span class="tag">AI</span></li>
+        <li><span href="#ML" class="tag">ML</span></li>
+        <li><span href="#NLP" class="tag">NLP</span></li>
+        <!-- Add more tags as needed -->
+      </ul>
+      <!-- CONTACT FOOTER -->
+      <footer>
+        <section class="contact">
+          <h3 class="contact-title">Contact</h3>
+          <ul>
+            <li><a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/belhayani/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </section>
+        <!-- <div class="copyright">
+          <p>2024 &copy; YOUR NAME</p>
+        </div> -->
+      </footer>
+    </aside>
+    <!-- MAIN CONTENT -->
+    <div class="content-box clearfix">
+      <article class="post">
+        <div class="post-content">
+          <h2 class="post-title">
+            ML Production System For Detecting Covid-19 From Coughs
+          </h2>
+          <p>
+            Application Link: <a href="#">Project Demo - Hosted on GCP Cloud Run</a> <br>
+            
+            GitHub Link: <a href="#">Project GitHub Repository</a> <br>
+            <b>The Team:</b> Lukas Haas, Dilara Soylu, John Spencer <br>
+            Problem Definition: Since the start of the Covid-19 pandemic, early detection methods have been essential...
+          </p>
+          <div class="page-footer">
+            <div class="page-tag">
+              <a href="#Covid" class="tag">&#35; Covid</a>
+              <a href="#ML" class="tag">&#35; ML</a>
+              <a href="#GCP" class="tag">&#35; GCP</a>
+            </div>
+          </div>
+          <span class="post-date">2021, Mar 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+          <span class="post-words">15 minute read</span>
+        </div>
+      </article>
+      <!-- Add more <article class="post">...</article> here for more projects -->
     </div>
+  </div>
 </body>
 </html>
